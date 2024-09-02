@@ -1,0 +1,90 @@
+/* Reset básico */  
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f9f9f9; /* Cor de fundo clara */  
+    color: #333; /* Cor do texto */  
+    font-size: 20px; /* Tamanho da fonte */  
+}  
+
+header {  
+    background: #4c78af; /* Azul */  
+    color: white; /* Texto branco */  
+    padding: 15px; /* Espaçamento interno */  
+    text-align: center; /* Centraliza o texto */  
+}  
+
+nav ul {  
+    list-style-type: none; /* Remove marcadores da lista */  
+}  
+
+nav ul li {  
+    display: inline; /* Exibe os itens em linha */  
+    margin: 0 15px; /* Espaçamento entre os itens */  
+}  
+
+nav a {  
+    color: white; /* Cor dos links */  
+    text-decoration: none; /* Remove sublinhado */  
+    transition: color 0.3s; /* Transição suave para a cor */  
+}  
+
+nav a:hover {  
+    color: #ffcc00; /* Cor dos links ao passar o mouse */  
+}  
+
+main {  
+    padding: 40px; /* Espaçamento interno */  
+    margin: 25px; /* Espaçamento externo */  
+    background: white; /* Fundo branco */  
+    border-radius: 5px; /* Bordas arredondadas */  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */  
+}  
+
+footer {  
+    text-align: center; /* Centraliza o texto */  
+    padding: 10px; /* Espaçamento interno */  
+    background: #4CAF50; /* Verde */  
+    color: white; /* Texto branco */  
+}  
+
+form {  
+    display: flex; /* Flexbox para layout do formulário */  
+    flex-direction: column; /* Coloca os itens em coluna */  
+}  
+
+label {  
+    margin: 10px 0 5px; /* Espaçamento para os rótulos */  
+}  
+
+input, textarea {  
+    padding: 10px; /* Espaçamento interno */  
+    margin-bottom: 10px; /* Espaçamento abaixo dos campos */  
+    border: 1px solid #ccc; /* Borda cinza */  
+    border-radius: 4px; /* Bordas arredondadas */  
+    transition: border-color 0.3s; /* Transição suave para a borda */  
+}  
+
+input:focus, textarea:focus {  
+    border-color: #4c78af; /* Cor da borda ao focar */  
+    outline: none; /* Remove o contorno padrão */  
+}  
+
+button {  
+    padding: 10px; /* Espaçamento interno */  
+    border: none; /* Remove borda */  
+    border-radius: 4px; /* Bordas arredondadas */  
+    background-color: #008CBA; /* Azul */  
+    color: white; /* Texto branco */  
+    cursor: pointer; /* Muda o cursor para pointer */  
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */  
+}  
+
+button:hover {  
+    background-color: #005f73; /* Azul mais escuro ao passar o mouse */  
+}
